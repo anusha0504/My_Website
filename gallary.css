@@ -1,0 +1,74 @@
+img{
+   width: 65%;
+   height: 300px;
+   margin: auto;
+   border-radius: 25px;
+   box-shadow: 3px 3px 6px azure;
+   display: block;
+   transition: transform 0.7s ease-in-out, border-radius 0.7s ease-in;
+   object-fit: cover;
+}
+
+img:hover{
+   transform:scale(1.1);
+   border-radius: 35px;
+}
+
+body{
+   background-color: black;
+}
+
+h1{
+   color: azure;
+   text-align: center;
+   font-family: cursive;
+   font-size: 40px;
+   transition: transform 1s ease-in-out;
+}
+
+h1:hover{
+   transform: scale(1.3) rotate(360deg) 
+}
+
+div, .videofiles{
+   width: 40%;
+   height: 400px;
+   margin: 5%;
+   float: left;
+}
+
+p{
+   color: azure;
+   text-align: center;
+   margin-top: 20px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+a{
+   text-align: center;
+   color: aqua;
+   font-size: 20px;
+   text-decoration: none;
+   display: block;
+   margin-top: 25px;
+}
+
+a:hover{
+   color: blueviolet;
+}
+
+.navlink{
+   display: inline;
+   padding: 20px;
+}
+
+audio{
+   background-color: aliceblue;
+   border-radius: 50px;
+}
+
+h2{
+   color: aliceblue;
+}
+

@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+    background: radial-gradient(azure, turquoise 60%);
+}
+h1{
+    color:darkmagenta;
+    font-size: 60px;
+    text-shadow: 3px 3px 3px black;
+    margin-top: 30px;
+}
+h2{
+    color:mediumpurple;
+    font-size: 30px;
+
+}
+h3{
+    color:black;
+    font-size: 20px;
+}
+img{
+    width: auto;
+    height: 400px;
+    display: block;
+    margin: auto;
+    border: 7px solid white;
+    border-radius: 25px;
+}
+img:hover{
+    box-shadow: 9px 9px 9px gray;
+    opacity: 35%;
+}
+
+nav{
+    float: left;
+    position: absolute;
+    margin-bottom: 40px;
+}
+
+a{
+    color: black;
+    font-family: cursive;
+    font-size: larger;
+    text-decoration: none;
+    padding: 15px;
+    transition: transform 0.7s ease-in-out;
+}
+
+a:hover{
+    color: blueviolet;
+    transform: scale(1.2)
+}
